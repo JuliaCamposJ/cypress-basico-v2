@@ -8,9 +8,9 @@ A aplicação se chama Central de Atendimento ao Cliente TAT - [**CAC TAT**](htt
 
 A aplicação CAC TAT é um formulário para simular o envio de mensagens à uma central de atendimento ao cliente.
 
-### Campos obrigatórios
+### Campos obrigetórios
 
-Os seguintes campos são obrigatórios, por padrão:
+Os seguintes campos são obrigetórios, por padrão:
 
 - Nome (campo do tipo texto)
 - Sobrenome (campo do tipo texto)
@@ -19,7 +19,7 @@ Os seguintes campos são obrigatórios, por padrão:
 
 ### Outros campos
 
-Além dos campos obrigatórios, o "cliente" pode informar:
+Além dos campos obrigetórios, o "cliente" pode informar:
 
 - Seu telefone (campo do tipo número)
 - O produto ao qual deseja atendimento (campo de seleção suspensa com as opções Blog, Cursos, Mentoria e YouTube)
@@ -29,8 +29,8 @@ Além dos campos obrigatórios, o "cliente" pode informar:
 
 ### Regras dos meios de contato preferenciais
 
-- Quando o checkbox Telefone é marcado, o input do número do telefone passa a ser obrigatório
-- Ao desmarcar o checkbox Telefone, o input do número do telefone deixa de ser obrigatório
+- Quando o checkbox Telefone é marcado, o input do número do telefone passa a ser obrigetório
+- Ao desmarcar o checkbox Telefone, o input do número do telefone deixa de ser obrigetório
 
 ### Política de privacidade
 
@@ -38,7 +38,7 @@ Ao clicar no link [Política de privacidade](https://cac-tat.s3.eu-central-1.ama
 
 ### Mensagens
 
-⚠️ Caso haja algum problema relacionado aos campos obrigatórios, a seguinte mensagem é exibida (em um fundo amarelo): `Valide os campos obrigatórios!`.
+⚠️ Caso haja algum problema relacionado aos campos obrigetórios, a seguinte mensagem é exibida (em um fundo amarelo): `Valide os campos obrigetórios!`.
 
 ✅ Ao submeter o formulário com sucesso, a seguinte mensagem é exibida (em um fundo verde): `Mensagem enviada com sucesso.`
 
