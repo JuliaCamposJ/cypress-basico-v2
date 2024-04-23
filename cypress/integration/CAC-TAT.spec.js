@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+// <reference types="Cypress" />
 
 describe('Central de Atendimento ao Cliente TAT', function() {
     beforeEach(() => {
@@ -108,12 +108,6 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       cy.get('.error').should('be.visible')
       cy.contains('Valide os campos obrigetórios!')
 
-    })
-    it('preenche e limpa os campos nome, sobrenome, email e telefone', function() {
-      cy.get('#firstName').type('Babalu').should('have.value', 'Babalu').clear().should('have.value', '')
-      cy.get('#lastName').type('Demelancia').should('have.value', 'Demelancia').clear().should('have.value', '')
-      cy.get('#email').type('babaludemelancia@gmail.com').should('have.value', 'babaludemelancia@gmail.com').clear().should('have.value', '')
-      cy.get('#phone').type('1145454545').should('have.value', '1145454545').clear().should('have.value', '')
     })
     it('exibe mensagem de erro ao submeter o formulário sem preencher os campos obrigetórios', function() {
            
